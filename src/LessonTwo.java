@@ -10,6 +10,7 @@ public class LessonTwo {
                 {"92", "u46", "16", "10"},
                 {"78", "4", "52", "34"}
         };
+
         try {
             sum(arr);
         }catch (MyArraySizeException e){
