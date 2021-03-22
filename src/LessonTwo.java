@@ -7,9 +7,10 @@ public class LessonTwo {
         String[][] arr = {
                 {"10", "45", "6", "15"},
                 {"5", "12", "78","3"},
-                {"92", "u46", "16", "10"},
+                {"92", "46", "16", "10"},
                 {"78", "4", "52", "34"}
         };
+
         try {
             sum(arr);
         }catch (MyArraySizeException e){
